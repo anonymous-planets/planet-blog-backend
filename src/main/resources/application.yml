@@ -1,0 +1,24 @@
+server:
+  port: 9999
+spring:
+  config:
+    activate:
+      on-profile: default,local
+  application:
+    name: planet-blog-backend
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 10MB
+      location: /store
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:anonymous_planet
+    username: user
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+anonymous-planet:
+  file:
+    allow-extension: png,jpeg,jpg

@@ -1,0 +1,40 @@
+### Gradle
+.gradle
+/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+### Java template
+.class
+**/package-info.java
+
+### IntelliJ
+out/
+target/
+build/
+.idea
+.iml
+
+### Test
+test/
+
+### Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Log File
+*.log
+
+### 특정 파일 ignore
+planet-common-api/src/main/java/com/planet/anonymous/common/config/PropertyEncryptConfig.java
+
+### Node
+/node/
+
+planet-zuul-server
